@@ -1,0 +1,5 @@
+SOURCE: https://youtube.com/playlist?list=PLFWDoeAHRLTY1I4anPC9kTMwAX4iWUz_n&si=fmLyVNmHOXhTwozi
+
+All Steps:
+Step 1: Cái đặt Node JS
+ - Check: node -v, npm -v (node package manage)
