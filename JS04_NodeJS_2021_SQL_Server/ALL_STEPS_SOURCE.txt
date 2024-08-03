@@ -1,5 +1,27 @@
 SOURCE: https://youtube.com/playlist?list=PLFWDoeAHRLTY1I4anPC9kTMwAX4iWUz_n&si=fmLyVNmHOXhTwozi
 
 All Steps:
-Step 1: Cái đặt Node JS
+Step 1: Cài đặt Node JS
  - Check: node -v, npm -v (node package manage)
+Step 2: Cài đặt npm trong thư mục dự án
+ - cd đến thư mục dự án
+ - cú pháp: npm init -y
+Step 3: Cài các gói dành riêng cho dự án
+ - Cài bình thường trong dự án, cú pháp: npm install --save-prod express
+ - Cài ở chế độ nhà phát triển, cú pháp: npm install --save-dev webpack
+
+cú pháp gỡ cái đặt: 
+npm uninstall express
+npm uninstall webpack
+
+Step 4: thêm và liên kết file app.js
+
+Step 5: cấu hình Server req và res
+
+var server = http.createServer(function(req, res){
+    res.end('<h1>Hello nodeJS</h1>');
+});
+
+server.listen(3000, function(){
+    console.log('Đang mở máy chủ tại: http://localhost:3000')
+})
