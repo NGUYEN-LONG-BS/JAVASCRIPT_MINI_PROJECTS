@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Call VBA from Browser</title>
+</head>
+<body>
+<button onclick="callVBA()">Call VBA</button>
+
+<script>
+    function callVBA() {
+    try {
+    var excelApp = new ActiveXObject("Excel.Application");
+    excelApp.Visible = true;
+    excelApp.Workbooks.Open("C:\\Users\\ADMIN\\Desktop\\ICONS\\GITHUB\\JAVASCRIPT_MINI_PROJECTS\\JS03_CONNECT_TO_VBA\\VBA.xlsm");
+    excelApp.Run("ShowMessage");
+    } catch (e) {
+    alert("ActiveX is not supported or Excel is not installed.");
+    }
+    }
+</script>
+</body>
+</html>
