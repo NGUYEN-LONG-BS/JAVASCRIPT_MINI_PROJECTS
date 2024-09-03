@@ -74,16 +74,6 @@ function detailProduct(index) {
     <div class="notebox">
             <p class="notebox-title">Ghi chú</p>
             <textarea class="text-note" id="popup-detail-note" placeholder="Nhập thông tin cần lưu ý..."></textarea>
-            <img class="product-image" src="${infoProduct.img}" alt="">
-            <img class="product-image" src="${infoProduct.img02}" alt="">
-            <img class="product-image" src="${infoProduct.img03}" alt="">
-            <img class="product-image" src="${infoProduct.img04}" alt="">
-            <img class="product-image" src="${infoProduct.img05}" alt="">
-            <img class="product-image" src="${infoProduct.img06}" alt="">
-            <img class="product-image" src="${infoProduct.img07}" alt="">
-            <img class="product-image" src="${infoProduct.img08}" alt="">
-            <img class="product-image" src="${infoProduct.img09}" alt="">
-            <img class="product-image" src="${infoProduct.img10}" alt="">
     </div>
     <div class="modal-footer">
         <div class="price-total">
@@ -94,7 +84,20 @@ function detailProduct(index) {
             <button class="button-dathangngay" data-product="${infoProduct.id}">Đặt hàng ngay</button>
             <button class="button-dat" id="add-cart" onclick="animationCart()"><i class="fa-light fa-basket-shopping"></i></button>
         </div>
-    </div>`;
+    </div>
+    <div class="notebox-1">
+            <img class="product-image" src="${infoProduct.img}" alt="">
+            <img class="product-image" src="${infoProduct.img}" alt="">
+            <img class="product-image" src="${infoProduct.img}" alt="">
+            <img class="product-image" src="${infoProduct.img04}" alt="">
+            <img class="product-image" src="${infoProduct.img05}" alt="">
+            <img class="product-image" src="${infoProduct.img06}" alt="">
+            <img class="product-image" src="${infoProduct.img07}" alt="">
+            <img class="product-image" src="${infoProduct.img08}" alt="">
+            <img class="product-image" src="${infoProduct.img09}" alt="">
+            <img class="product-image" src="${infoProduct.img10}" alt="">
+    </div>
+    `;
     document.querySelector('#product-detail-content').innerHTML = modalHtml;
     modal.classList.add('open');
     body.style.overflow = "hidden";
