@@ -18,7 +18,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Đi tiệc',
-            price: 200000,
+            price: 500000,
             desc: 'Một Món chay ngon miệng với nấm đùi gà thái chân hương, xào săn với lửa và thật nhiều tỏi băm, nêm nếm với mắm và nước tương chay, món ngon đưa cơm và rất dễ ăn cả cho người lớn và trẻ nhỏ.'
         },
         {
