@@ -86,16 +86,16 @@ function detailProduct(index) {
         </div>
     </div>
     <div class="notebox-1">
-            <img class="product-image" src="${infoProduct.img01}" alt="">
-            <img class="product-image" src="${infoProduct.img02}" alt="">
-            <img class="product-image" src="${infoProduct.img03}" alt="">
-            <img class="product-image" src="${infoProduct.img04}" alt="">
-            <img class="product-image" src="${infoProduct.img05}" alt="">
-            <img class="product-image" src="${infoProduct.img06}" alt="">
-            <img class="product-image" src="${infoProduct.img07}" alt="">
-            <img class="product-image" src="${infoProduct.img08}" alt="">
-            <img class="product-image" src="${infoProduct.img09}" alt="">
-            <img class="product-image" src="${infoProduct.img10}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img01}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img02}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img03}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img04}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img05}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img06}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img07}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img08}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img09}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img10}" alt="">
     </div>
     `;
     document.querySelector('#product-detail-content').innerHTML = modalHtml;
@@ -862,7 +862,7 @@ function renderProducts(showProduct) {
                             <span class="current-price">${vnd(product.price)}</span>
                         </div>
                     <div class="product-buy">
-                        <button onclick="detailProduct(${product.id})" class="card-button order-item"><i class="fa-regular fa-cart-shopping-fast"></i> Đặt món</button>
+                        <button onclick="detailProduct(${product.id})" class="card-button order-item"><i class="fa-regular fa-cart-shopping-fast"></i> Chi tiết</button>
                     </div> 
                 </div>
                 </div>

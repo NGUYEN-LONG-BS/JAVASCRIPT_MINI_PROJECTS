@@ -6,10 +6,10 @@ function createProduct() {
         {
             id: 1,
             status: 1, 
-            title: 'Makeup đi tiệc sinh nhật',
-            img: './assets/img/products/CHUP_HINH_01-00.jpeg',
-            img01: './assets/img/products/CHUP_HINH_01-01.jpeg',
-            img02: './assets/img/products/CHUP_HINH_01-02.jpeg',
+            title: 'Cô dâu lung linh',
+            img: './assets/img/products/DAM_CUOI_01-00.jpg',
+            img01: './assets/img/products/DAM_CUOI_01-01.jpg',
+            img02: './assets/img/products/DAM_CUOI_01-02.jpg',
             img03: '',
             img04: '',
             img05: '',
@@ -18,46 +18,46 @@ function createProduct() {
             img08: '',
             img09: '',
             img10: '',
-            category: 'Đi tiệc',
+            category: 'Đám cưới',
             price: 500000,
-            desc: 'Một Món chay ngon miệng với nấm đùi gà thái chân hương, xào săn với lửa và thật nhiều tỏi băm, nêm nếm với mắm và nước tương chay, món ngon đưa cơm và rất dễ ăn cả cho người lớn và trẻ nhỏ.'
+            desc: 'Trang điểm cô dâu siêu nhẹ nhàng, khởi đầu cho muôn vàn may mắn, lưu giữ khoảnh khắc thiên thần của thanh xuân. Nàng dâu vô cùng hài lòng, tự tin, tươi tắn.'
         },
         {
             id: 2,
             status: 1, 
-            title: 'Makeup đi quẩy với bạn',
-            img: './assets/img/products/KY_YEU_01-00.png',
-            img01: './assets/img/products/KY_YEU_01-01.png',
-            img02: './assets/img/products/KY_YEU_01-02.png',
-            img03: './assets/img/products/KY_YEU_01-03.png',
-            img04: '',
+            title: 'Cô dâu quyến rũ',
+            img: './assets/img/products/DAM_CUOI_02-00.jpg',
+            img01: './assets/img/products/DAM_CUOI_02-01.jpg',
+            img02: './assets/img/products/DAM_CUOI_02-02.jpg',
+            img03: './assets/img/products/DAM_CUOI_02-03.jpg',
+            img04: './assets/img/products/DAM_CUOI_02-04.jpg',
             img05: '',
             img06: '',
             img07: '',
             img08: '',
             img09: '',
             img10: '',
-            category: 'Đi tiệc',
-            price: 180000,
-            desc: 'Makeup kỷ yếu vô cùng dễ thương, lưu giữ khoảnh khắc thiên thần của thanh xuân.'
+            category: 'Đám cưới',
+            price: 500000,
+            desc: 'Trang điểm cô dâu siêu nhẹ nhàng, khởi đầu cho muôn vàn may mắn, lưu giữ khoảnh khắc thiên thần của thanh xuân. Nàng dâu vô cùng hài lòng, tự tin, tươi tắn.'
         },
         {
             id: 3,
             status: 1, 
-            title: 'Bánh lava phô mai nướng',
-            img: './assets/img/products/banh_lava_pho_mai_nuong.jpeg',
-            img01: './assets/img/products/nam-dui-ga-chay-toi-01.jpeg',
-            img02: './assets/img/products/nam-dui-ga-chay-toi-02.jpeg',
-            img03: './assets/img/products/nam-dui-ga-chay-toi-03.jpeg',
-            img04: './assets/img/products/nam-dui-ga-chay-toi-04.jpeg',
-            img05: './assets/img/products/nam-dui-ga-chay-toi-05.jpeg',
-            img06: './assets/img/products/nam-dui-ga-chay-toi-06.jpeg',
-            img07: './assets/img/products/nam-dui-ga-chay-toi-07.jpeg',
-            img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
-            img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
-            img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            category: 'Món mặn',
-            price: 180000,
+            title: 'Mẫu ảnh cuốn hút',
+            img: './assets/img/products/MAU_ANH_01-00.jpg',
+            img01: './assets/img/products/MAU_ANH_01-01.jpg',
+            img02: './assets/img/products/MAU_ANH_01-02jpg',
+            img03: './assets/img/products/MAU_ANH_01-03.jpg',
+            img04: './assets/img/products/MAU_ANH_01-04.jpg',
+            img05: '',
+            img06: '',
+            img07: '',
+            img08: '',
+            img09: '',
+            img10: '',
+            category: 'Mẫu ảnh - Thời trang',
+            price: 500000,
             desc: 'Rau củ quả theo mùa tươi mới xào với nước mắm chay, gia vị để giữ được hương vị ngọt tươi nguyên thủy của rau củ, một món nhiều vitamin và chất khoáng, rất dễ ăn.'
         },
         {
@@ -75,7 +75,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 699000,
+            price: 500000,
             desc: 'Lẩu Thái là món ăn xuất phát từ món canh chua Tom yum nổi tiếng của Thái Lan. Nước lẩu có hương vị chua chua cay cay đặc trưng. Các món nhúng lẩu gồn thịt bò, hải sản, rau xanh và các loại nấm.'
         },
         {
@@ -94,7 +94,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 280000,
+            price: 500000,
             desc: 'Cơm nấu từ gạo ST25 dẻo, hạt cơm tơi ngon, thịt cua tươi chắc nịch, bếp đảo cho săn hạt cơm, rồi đổ cua đã xào thơm vào, xúc miếng cơm chiên cua đầy đặn có thêm hành phi giòn rụm, món ngon như vậy đảm bảo tranh nhau đến miếng cuối cùng.'
         },
 
@@ -114,7 +114,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 540000,
+            price: 500000,
             desc: 'Súp bào ngư Bếp Hoa có bào ngư kết hợp cùng sò điệp, tôm tươi... được hầm trong nhiều giờ với rau củ & nấm đông trùng tạo ra vị ngọt tự nhiên hiếm thấy. Một món ăn khiến cả người ốm cũng thấy ngon miệng đó ạ.'
         },
 
@@ -134,7 +134,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 340000,
+            price: 500000,
             desc: 'Tai heo được cuộn bên trong cùng phần thịt lưỡi heo. Phần tai bên ngoài giòn dai, phần thịt lưỡi bên trong vẫn mềm, có độ ngọt tự nhiên của thịt. Tai cuộn lưỡi được chấm với nước mắm và tiêu đen.'
         },
 
@@ -154,7 +154,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 140000,
+            price: 500000,
             desc: 'Quý khách hấp chín trước khi ăn. Những miếng há cảo, sủi cảo, hoành thánh với phần nhân tôm, sò điệp, hải sản tươi ngon hay nhân thịt heo thơm ngậy chắc chắn sẽ khiến bất kỳ ai thưởng thức đều cảm thấy rất ngon miệng.'
         },
 
@@ -174,7 +174,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 34000,
+            price: 500000,
             desc: 'Món Nước uống vừa béo ngậy, chua ngọt đủ cả mà vẫn có vị thanh của trà.',
         },
         {
@@ -193,7 +193,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 25000,
+            price: 500000,
             desc: 'Trà đào chanh sả có vị đậm ngọt thanh của đào, vị chua chua dịu nhẹ của chanh và hương thơm của sả.',
         },
         {
@@ -212,7 +212,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 60000,
+            price: 500000,
             desc: 'Bánh chuối nướng béo ngậy mùi nước cốt dừa cùng miếng chuối mềm ngon sẽ là Món tráng miệng phù hợp với mọi người.'
         },
         {
@@ -231,7 +231,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 140000,
+            price: 500000,
             desc: 'Những miếng há cảo, sủi cảo, hoành thánh với phần nhân tôm, sò điệp, hải sản tươi ngon hay nhân thịt heo thơm ngậy chắc chắn sẽ khiến bất kỳ ai thưởng thức đều cảm thấy rất ngon miệng.'
         },
         {
@@ -250,7 +250,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 60000,
+            price: 500000,
             desc: 'Chả rươi luôn mang đến hương vị khác biệt và "gây thương nhớ" hơn hẳn so với các loại chả khác. Rươi béo càng ăn càng thấy ngậy. Thịt thơm quyện mùi thì là và vỏ quýt rất đặc sắc. Chắc chắn sẽ là một món ăn rất hao cơm'
         },
         {
@@ -269,7 +269,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 60000,
+            price: 500000,
             desc: 'Nộm gà làm từ thịt gà ri thả đồi. Thịt gà ngọt, săn được nêm nếm vừa miệng, bóp thấu với các loại rau tạo thành món nộm thơm ngon, đậm đà, giải ngán hiệu quả.'
         },
         {
@@ -288,7 +288,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 60000,
+            price: 500000,
             desc: 'Bún cá được làm đặc biệt hơn với cá trắm lọc xương và chiên giòn, miếng cá nhúng vào nước dùng ăn vẫn giòn dai, thơm ngon vô cùng.'
         },
         {
@@ -307,7 +307,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 60000,
+            price: 500000,
             desc: 'Bún cá được làm đặc biệt hơn với cá trắm lọc xương và chiên giòn, miếng cá nhúng vào nước dùng ăn vẫn giòn dai, thơm ngon vô cùng'
         },
         {
@@ -326,7 +326,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 60000,
+            price: 500000,
             desc: 'Bún cá được làm đặc biệt hơn với cá trắm lọc xương và chiên giòn, miếng cá nhúng vào nước dùng ăn vẫn giòn dai, thơm ngon vô cùng'
         },
         {
@@ -345,7 +345,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 60000,
+            price: 500000,
             desc: 'Tôm sú tươi rim với thịt. rim kỹ, vừa lửa nên thịt và tôm săn lại, ngấm vị, càng ăn càng thấy ngon.'
         },
         {
@@ -364,7 +364,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 130000,
+            price: 500000,
             desc: 'Bánh cookie dừa ngọt vừa miệng, dừa bào tươi nhào bánh nướng giòn tan, cắn vào thơm lừng, giòn rụm'
         },
         {
@@ -383,7 +383,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 130000,
+            price: 500000,
             desc: 'Bánh cookie dừa ngọt vừa miệng, dừa bào tươi nhào bánh nướng giòn tan, cắn vào thơm lừng, giòn rụm'
         },
         {
@@ -402,7 +402,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 550000,
+            price: 500000,
             desc: 'Từng chú tôm sú được chọn lựa kĩ càng mỗi ngày, đảm bảo là tôm tươi sống, vẫn còn đang bơi khỏe. Tôm rang muối vừa đậm đà lại vẫn giữ được vị ngọt tự nhiên của tôm sú.'
         },
         {
@@ -421,7 +421,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 550000,
+            price: 500000,
             desc: 'Tôm được chiên vàng giòn bên ngoài, bên trong thịt tôm vẫn mềm, kết hợp cùng sốt bơ tỏi thơm nức . Tôm tươi được Bếp Hoa chiên theo bí quyết riêng nên phần thịt tôm bên trong sẽ có hương vị thơm ngon đặc biệt, sốt bơ tỏi béo ngậy hấp dẫn. Ăn kèm bánh mỳ rất hợp'
         },
 
@@ -441,7 +441,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 510000,
+            price: 500000,
             desc: 'Combo vịt quay Bếp Hoa + gỏi vịt bắp cải size đại cực kỳ thích hợp cho những bữa ăn cần nhiều rau, nhiều đạm mà vẫn đảm bảo ngon miệng. Vịt quay chuẩn Macao giòn da thấm thịt, thêm phần gỏi vịt chua chua ngọt ngọt, rau tươi giòn ăn chống ngán, cân bằng dinh dưỡng.'
         },
 
@@ -461,7 +461,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 950000,
+            price: 500000,
             desc: 'Một 1 set với 3 món ngon mỹ mãn đủ 4 người ăn no, bếp trưởng tự tay chọn từng con cá tầm tươi đủ chất lượng để chế biến đủ 3 món gỏi, nướng, canh chua 10 điểm cho chất lượng.'
         },
         {
@@ -480,7 +480,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 350000,
+            price: 500000,
             desc: 'Chả ốc với ốc giòn tan, băm rối, trộn với thịt, lá lốt, rau thơm, nêm nếm vừa ăn và viên tròn, chiên cho giòn ngoài mềm trong. Ăn chả ốc kẹp với rau sống và chấm mắm chua ngọt cực kỳ đưa vị.'
         },
 
@@ -500,7 +500,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 450000,
+            price: 500000,
             desc: 'Gà ủ muối tuyển chọn từ gà ri tươi, ủ muối chín tới với gia vị thảo mộc tự nhiên, da gà mỏng, thịt chắc ngọt.'
         },
 
@@ -520,7 +520,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 520000,
+            price: 500000,
             desc: 'Gà mái ghẹ size 1.4kg sơ chế sạch sẽ, tẩm ướp gia vị đậm đà, bọc vào trong xôi dẻo từ nếp cái hoa vàng, chiên cho giòn mặt ngoài. Khi ăn cắt phần xôi là gà thơm ngon nghi ngút khói, thịt gà ngấm mềm thơm, miếng xôi ngọt tự nhiên từ thịt gà ăn cực kỳ hấp dẫn.'
         },
 
@@ -540,7 +540,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 350000,
+            price: 500000,
             desc: 'Cá tươi bếp làm sạch, lạng đôi, ướp cho ngấm và chiên vàng giòn. Thịt cá bên trong óng ánh nước, mềm ngọt, bên ngoài giòn tan hấp dẫn. Thêm sốt mắm Thái đầu bếp làm công thức riêng, vị mắm chua ngọt cay the cực kỳ hợp với cá giòn nóng hổi.'
         },
 
@@ -560,7 +560,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 420000,
+            price: 500000,
             desc: 'Chân giò lợn đen chọn loại ngon, tỉ lệ nạc mỡ đều đặn, bếp xâm bì cẩn thận và ướp thật ngon, chiên vàng giòn nổi bóng, khi ăn chấm mắm chua ngọt cay cay cực kỳ ngon miệng.'
         },
 
@@ -580,7 +580,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 175000,
+            price: 500000,
             desc: 'Cốm mộc làng Vòng hạt dẹt dẻo và thơm đặc biệt, thịt lợn tươi phải chọn phần thịt vai xay vừa mềm lại không bở, trộn đều với cốm, nêm với mắm ngon, gia vị đơn giản và quật hỗn hợp thịt xay và cốm đến khi nào thật chắc và dẻo. Viên mỗi bánh chả phải đều tay, hấp sơ qua cho thành hình, khi ăn mới chiên vàng. Chả cốm khi cắn vào phải giòn và lại thật mềm, tứa nước trong miệng. Cốm dẻo dẻo cuộn trong thịt thơm ngon lạ kỳ.'
         },
 
@@ -600,7 +600,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 350000,
+            price: 500000,
             desc: '[Mỗi phần có 1,2kg thịt vịt]. Vịt om sấu với thịt vịt mềm thơm, nấu với trái sấu, sả cây, ớt tươi cho ra phần nước om chua thanh và rất thơm. Dùng vịt om sấu với rau mùi tàu, rau thơm và bún rất ngon.'
         },
 
@@ -620,7 +620,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 460000,
+            price: 500000,
             desc: 'Giò xào Bếp Hoa đặc biệt được xào khô, ép chặt để tạo độ giòn. Nguyên liệu chính được làm từ tai và lưỡi heo. Khi ăn giò xào, bạn sẽ cảm nhận từng miếng giò vừa giòn vừa thơm lừng mùi tiêu đen và nước mắm.'
         },
 
@@ -640,7 +640,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 200000,
+            price: 500000,
             desc: 'Nem tai giòn sần sật, trộn với thính gạo rang thơm, ăn kèm lá sung bùi bùi, chấm tương ớt hoặc nước chấm đặc điệt, công thức chỉ riêng Bếp Hoa có.'
         },
 
@@ -660,7 +660,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 270000,
+            price: 500000,
             desc: 'Canh dưa chua hầm nhừ với thịt nạm bò và gân bò. Thơm - ngon - ngọt - béo - chua dịu thanh thanh'
         },
 
@@ -680,7 +680,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 300000,
+            price: 500000,
             desc: 'Nọng heo - phần thịt ngon nhất trên thủ heo, với những dải thịt nạc mỡ đan xen, mỗi thủ chỉ có được 1-2kg thịt nọng ngon mềm như vậy. Bếp trưởng Bếp Hoa tẩm ướp thật ngấm gia vị, nướng thẳng trên than hoa thơm nức, xém cạnh đẹp mắt. Miếng thịt nướng xong gắp khỏi vỉ vẫn thấy mỡ thơm còn sôi trên dải thịt, để thịt nghỉ vài phút khi thái ra óng ánh nước, gắp miếng thịt chấm với nước sốt siêu ngon độc quyền của Bếp, ngon đến tứa nước miếng, tranh nhau gắp sạch đĩa'
         },
 
@@ -700,7 +700,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 280000,
+            price: 500000,
             desc: 'Thịt lợn quay thơm mùi lá mắc mật. Ngoài bì giòn rụm, thịt bên trong mềm, hương vị đậm đà. Đặc biệt, bếp có loại sốt chấm thịt được pha bằng công thức riêng biệt chỉ Bếp Hoa mới có.Hướng dẫn sử dụng: Sử dụng ngay trong ngày. Bảo quản trong tủ mát.'
         },
 
@@ -720,7 +720,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 280000,
+            price: 500000,
             desc: 'Khâu nhục - món ăn cầu kỳ mang phong vị phương Bắc. Làm từ thịt lợn ta, khâu khục được hấp cách thủy trong 6 tiếng cùng với rất nhiều loại gia vị. Thịt mềm nhừ, ngọt vị, phần bì trong và dẻo quẹo. Mỡ ngậy ngậy tan chảy ngay khi vừa đưa lên miệng. Hướng dẫn bảo quản: Hâm nóng lại bằng nồi hấp cách thủy hoặc lò vi sóng. Bảo quản trong tủ mát từ 3-5 ngày.'
         },
         {
@@ -739,7 +739,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 140000,
+            price: 500000,
             desc: 'Những miếng há cảo, sủi cảo, hoành thánh với phần nhân tôm, sò điệp, hải sản tươi ngon hay nhân thịt heo thơm ngậy chắc chắn sẽ khiến bất kỳ ai thưởng thức đều cảm thấy rất ngon miệng.'
         },
         {
@@ -758,7 +758,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 60000,
+            price: 500000,
             desc: 'Chè cốm hương lá dứa dẻo thơm, ngọt dịu, từng hạt cốm thoảng thoảng đâu đó hương lá dứa mát lành'
         },
 
@@ -778,7 +778,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 50000,
+            price: 500000,
             desc: 'Bánh bông lan chanh dây với vị chua nhẹ, không bị ngọt gắt hẳn sẽ là sự lựa chọn hoàn hảo'
         },
 
@@ -798,7 +798,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 50000,
+            price: 500000,
             desc: 'Chè bưởi rất dễ ăn bởi hương vị ngọt mát, thơm ngon, vị bùi bùi của đậu xanh, giòn sần sật của cùi bưởi mà không hề bị đắng'
         },
         {
@@ -817,7 +817,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 699000,
+            price: 500000,
             desc: 'Lẩu Thái là món ăn xuất phát từ món canh chua Tom yum nổi tiếng của Thái Lan. Nước lẩu có hương vị chua chua cay cay đặc trưng. Các món nhúng lẩu gồn thịt bò, hải sản, rau xanh và các loại nấm.',
         },
         {
@@ -836,7 +836,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 550000,
+            price: 500000,
             desc: 'Một set lẩu Thái nấm chay với nước dùng 100% từ rau củ quả tự nhiên, thêm sả cây tươi, riềng miếng, ớt, nước dừa để lên được vị nước lẩu Thái chuẩn vị. Đồ nhúng đa dạng với nhiều loại nấm khác nhau, rau tươi giòn, đậu phụ mềm xốp, váng đậu amla chiên giòn. Kèm bún tươi ăn rất hợp.',
         },
         {
@@ -855,7 +855,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 220000,
+            price: 500000,
             desc: 'Món xào thanh nhẹ ngọt lịm từ rau củ và nấm tươi, thêm chút đậu phụ chiên thái miếng, nêm nếm đậm đà. Ăn kèm cơm trắng hay làm bún trộn rau củ cũng rất hợp.',
         },
         {
@@ -874,7 +874,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 75000,
+            price: 500000,
             desc: 'Bún trộn chay tưởng là quen mà ăn ngon lạ miệng. Với bún tươi được trộn với nước tương và sốt ớt đặc biệt, mắm chay thơm, thêm rau củ tươi, rau thơm bắt vị, nấm xào săn, đậu phụ thái lát, một món thanh nhẹ thích hợp ăn trưa hoặc để dành cho anh chị eat-clean bữa tối.',
         },
         {
@@ -893,7 +893,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 75000,
+            price: 500000,
             desc: 'Bún riêu chay với phần gạch cua chay từ đậu phụ non mềm đánh với sốt màu thơm ngon. Nước dùng thanh nhẹ từ rau củ quả, được nấu lên vị đậm đà rất ngon miệng. Một phần bún riêu kèm với gạch cua là giò chay, đậu phụ rán, rau sống ngọt giòn và tương ớt chay sánh ngon.',
         },
         {
@@ -912,7 +912,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 170000,
+            price: 500000,
             desc: 'Sợi miến khoai lang bếp ngâm cho mềm, xào kèm rau củ quả tươi theo mùa, nêm cùng nước tương và dầu mè, một món xào chay vừa mát lành lại thơm ngon.',
         },
         {
@@ -931,7 +931,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 120000,
+            price: 500000,
             desc: 'Nấm tươi làm chín cuộn với bánh phở và rau bào, thêm đậu phụ chiên giòn thái chân hương đưa vị, chấm mắm chua ngọt chay bếp trưởng pha chế, một món ngon làm món khai vị rất hợp.',
         },
         {
@@ -950,7 +950,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 80000,
+            price: 500000,
             desc: 'Xôi xéo đậu xanh bếp dùng nếp cái hoa vàng hạt mẩy, ngâm với nước nghệ và đồ 2 lần cho hạt nếp chín mềm và thơm, đậu xanh sên mịn cắt tơi trộn cùng xôi, khi ăn rắc hành phi đưa vị, rất hấp dẫn.',
         },
         {
@@ -969,7 +969,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 70000,
+            price: 500000,
             desc: '',
         },
         {
@@ -988,7 +988,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 160000,
+            price: 500000,
             desc: 'Nem chay thơm ngon, thanh thuần bếp trưởng sử dụng rau củ bào tươi, đậu xanh, khoai môn, miến, mộc nhĩ và nấm hương, tất cả xào thơm cho lên vị, sau đó cuộn với bánh đa nem mỏng, chiên giòn vỏ, chấm mắm chua ngọt chay ăn kèm rau thơm rất hấp dẫn.',
         },
         {
@@ -1007,7 +1007,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 20000,
+            price: 500000,
             desc: 'Bánh tráng trộn là món ăn ngon không chỉ nổi danh đất Sài Thành mà ngay khi xuất hiện tại Hà Nội, nó cũng đã trở thành món ăn “hot trend” rất được giới trẻ yêu thích. ',
         },
         {
@@ -1026,7 +1026,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 10000,
+            price: 500000,
             desc: 'Khác với món bánh tráng trộn, bánh tráng nướng được phết một lớp trứng chút lên bề mặt bánh tráng cùng thịt băm, mỡ hành, nướng đến khi có màu vàng ruộm. ',
         },
         {
@@ -1045,7 +1045,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 50000,
+            price: 500000,
             desc: 'Được chế biến đủ các món ốc ngon khác nhau, như: ốc hấp, ốc luộc, ốc xào, ốc bỏ lò,.. với đủ các gia vị như tỏi, hành, ớt, tiêu, rau răm,…',
         },
         {
@@ -1064,7 +1064,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 60000,
+            price: 500000,
             desc: 'Cơm cháy chà bông có thể bảo quản cả tháng mà ăn vẫn ngon và đóng gói rất tiện.',
         },
         {
@@ -1083,7 +1083,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 99000,
+            price: 500000,
             desc: 'Cứ mỗi lần hỏi “Ăn gì ở Sài Gòn ngon, rẻ ?” là người ta nhớ ngay món phá lấu.',
         },
         {
@@ -1102,7 +1102,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 49000,
+            price: 500000,
             desc: 'Cùng với nước chấm đặc biệt, bột chiên để lại hương vị khó tả cho thực khách sau khi thưởng thức.',
         },
         {
@@ -1121,7 +1121,7 @@ function createProduct() {
             img08: './assets/img/products/nam-dui-ga-chay-toi-08.jpeg',
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
-            price: 60000,
+            price: 500000,
             desc: 'Thơm ngon đến từng sợi bò.',
         },
         {
@@ -1140,7 +1140,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Món mặn',
-            price: 130000,
+            price: 500000,
             desc: 'Những miếng há cảo, sủi cảo, hoành thánh với phần nhân tôm, sò điệp, hải sản tươi ngon hay nhân thịt heo thơm ngậy chắc chắn sẽ khiến bất kỳ ai thưởng thức đều cảm thấy rất ngon miệng.'
         },
         {
@@ -1159,7 +1159,7 @@ function createProduct() {
             img09: './assets/img/products/nam-dui-ga-chay-toi-09.jpeg',
             img10: './assets/img/products/nam-dui-ga-chay-toi-10.jpeg',
             category: 'Nước uống',
-            price: 100000,
+            price: 500000,
             desc: 'Dâu tây ăn nguyên quả ngon ngọt, có cả quả dôn dốt chua, màu đỏ mọng trông cực yêu. Không chỉ ngon miệng mà đồ uống từ dâu tây còn có công dụng bảo vệ sức khỏe, sáng mắt, đẹp da, thon gọn vóc dáng. Làm giảm nguy cơ mắc bệnh về mỡ máu, chống viêm,…'
         },
         ]

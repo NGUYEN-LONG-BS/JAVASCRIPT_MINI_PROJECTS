@@ -920,6 +920,12 @@ header {
     max-height: 375px;
 }
 
+.product-image-chi-tiet {
+    width: 100%;
+    object-fit: cover;
+    /* max-height: 375px; */
+}
+
 h2.product-title {
     color: var(--black);
     font-size: 18px;
