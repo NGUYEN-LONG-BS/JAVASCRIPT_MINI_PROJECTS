@@ -86,9 +86,9 @@ function detailProduct(index) {
         </div>
     </div>
     <div class="notebox-1">
-            <img class="product-image" src="${infoProduct.img}" alt="">
-            <img class="product-image" src="${infoProduct.img}" alt="">
-            <img class="product-image" src="${infoProduct.img}" alt="">
+            <img class="product-image" src="${infoProduct.img01}" alt="">
+            <img class="product-image" src="${infoProduct.img02}" alt="">
+            <img class="product-image" src="${infoProduct.img03}" alt="">
             <img class="product-image" src="${infoProduct.img04}" alt="">
             <img class="product-image" src="${infoProduct.img05}" alt="">
             <img class="product-image" src="${infoProduct.img06}" alt="">
