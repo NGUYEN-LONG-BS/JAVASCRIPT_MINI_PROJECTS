@@ -96,6 +96,7 @@ function detailProduct(index) {
             <img class="product-image-chi-tiet" src="${infoProduct.img08}" alt="">
             <img class="product-image-chi-tiet" src="${infoProduct.img09}" alt="">
             <img class="product-image-chi-tiet" src="${infoProduct.img10}" alt="">
+            <video class="product-image-chi-tiet" src="${infoProduct.video}" controls autoplay></video>
     </div>
     `;
     document.querySelector('#product-detail-content').innerHTML = modalHtml;

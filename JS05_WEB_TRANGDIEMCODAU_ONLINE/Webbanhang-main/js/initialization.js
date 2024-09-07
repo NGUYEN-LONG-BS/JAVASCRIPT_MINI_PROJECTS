@@ -629,6 +629,7 @@ function createProduct() {
             img08: '',
             img09: '',
             img10: '',
+            video: './assets/video/MAU_ANH_13-VIDEO.mp4',
             category: 'Mẫu ảnh - Thời trang',
             MUA: 'Trịnh Văn Phi Long',
             price: 500000,
