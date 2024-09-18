@@ -1,0 +1,289 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "targetLoudness" : -18.0,
+  "shouldApplyLoudnessNormalization" : true,
+  "videoFormatFrameRate" : 30,
+  "audioFormatSampleRate" : 44100,
+  "allowSubFrameEditing" : false,
+  "width" : 720.0,
+  "height" : 1080.0,
+  "version" : "6.0",
+  "editRate" : 705600000,
+  "authoringClientName" :  {
+    "name" : "Camtasia",
+    "platform" : "Windows",
+    "version" : "22.0"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "MAU_ANH.mp4",
+      "rect" : [0, 0, 720, 1080],
+      "lastMod" : "20240918T013858",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 608859],
+          "type" : 0,
+          "editRate" : 30000,
+          "trackRect" : [0, 0, 720, 1080],
+          "sampleRate" : "303029/10000",
+          "bitDepth" : 24,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20240918T014010.705804"
+      }
+    },
+    {
+      "id" : 2,
+      "src" : "Roie Shpigler - Playing with Light.mp3",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20240917T011006",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 1405125625],
+          "type" : 2,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -14.7346198226844,
+          "peakLevel" : 1.5366667509079,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20240918T014034.327639"
+      }
+    }
+  ],
+  "timeline" : {
+    "id" : 3,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                  {
+                    "id" : 4,
+                    "_type" : "VMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "MAU_ANH"
+                    },
+                    "parameters" : {
+                      "sourceCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 13429920000,
+                    "mediaStart" : 870240000,
+                    "mediaDuration" : 13429920000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 5,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Roie Shpigler - Playing with Light",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true,
+                      "sourceFileOffset" : 0
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "endTime" : 0,
+                            "time" : 0,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "endTime" : 26601120000,
+                            "time" : 26601120000,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "endTime" : 26624640000,
+                            "time" : 26624640000,
+                            "value" : 0.0,
+                            "duration" : 0
+                          },
+                          {
+                            "endTime" : 27565440000,
+                            "time" : 27565440000,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "endTime" : 39184320000,
+                            "time" : 39184320000,
+                            "value" : 1.20408163265306,
+                            "duration" : 0
+                          },
+                          {
+                            "endTime" : 40054560000,
+                            "time" : 40054560000,
+                            "value" : 0.0,
+                            "duration" : 0
+                          },
+                          {
+                            "endTime" : 40078080000,
+                            "time" : 40078080000,
+                            "value" : 1.0,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 13429920000,
+                    "mediaStart" : 26624640000,
+                    "mediaDuration" : 13429920000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              }            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      }
+    ],
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 26,
+      "backgroundColor" : [ 0, 0, 0, 191],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "gain" : 1.0,
+    "legacyAttenuateAudioMix" : false,
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "AutoSaveFile" : "C:\\Users\\ADMIN\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Auto-Saves\\Untitled Project603a0f36.autosave.tscproj",
+    "CanvasZoom" : 55,
+    "Date" : "2024-09-18 08:40:05 AM",
+    "IsAutoSave" : false,
+    "IsStandalone" : true,
+    "Language" : "ENU",
+    "ProfileName" : "",
+    "ProjectDimensionsChanged" : "1",
+    "ProjectThumbnail" : "iVBORw0KGgoAAAANSUhEUgAAAPAAAAFoCAYAAABpF3YIAAAAAXNSR0IArs4c6QAAAARnQU1BAACx\r\njwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARWSURBVHhe7chBDcAwAMSw8ifdFUAA7CRH8ifn\r\ndYFZOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYEN\r\nOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYENOYHfO/cD\r\nOz5CMf6KL0UAAAAASUVORK5CYII=",
+    "Title" : "Untitled Project",
+    "audioNarrationNotes" : "",
+    "calloutStyle" : "Basic"
+  }
+}
