@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+form {
+background-color: #e0f7fa; /* Light blue background */
+padding: 20px;
+border-radius: 5px;
+max-width: 600px;
+margin: auto;
+border: 2px solid #00796b; /* Blue border */
+}
+.form-group {
+display: flex;
+justify-content: space-between;
+margin-bottom: 15px;
+}
+.form-group label {
+flex: 1;
+margin-right: 10px;
+color: #00796b; /* Darker blue for text */
+}
+.form-group input {
+flex: 2;
+padding: 8px;
+border: 1px solid #00796b;
+border-radius: 3px;
+}
+button {
+background-color: #00796b;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+margin-top: 20px;
+}
+button:hover {
+background-color: #004d40; /* Darker shade on hover */
+}
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+table, th, td {
+border: 1px solid #00796b;
+}
+th, td {
+padding: 10px;
+text-align: left;
+}
+.delete-button {
+background-color: #e53935;
+color: white;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+border-radius: 3px;
+margin-top: 20px;
+}
+.delete-button:hover {
+background-color: #b71c1c; /* Darker shade on hover */
+}
+.selected {
+background-color: #b2ebf2; /* Highlight selected row */
+}
+.logo {
+display: block;
+margin: 0 auto 20px;
+max-width: 100px; /* Adjust the size as needed */
+}
+</style>
+</head>
+<body>
+<form id="inputForm">
+<img src="TALA_LOGO.png" alt="Logo" class="logo">
+<div class="form-group">
+<label for="maHang">Mã hàng:</label>
+<input name="maHang" id="maHang" type="text" required>
+</div>
+<div class="form-group">
+<label for="tenHang">Tên hàng:</label>
+<input name="tenHang" id="tenHang" type="text" required>
+</div>
+<div class="form-group">
+<label for="dvt">DVT:</label>
+<input name="dvt" id="dvt" type="text" required>
+</div>
+<div class="form-group">
+<label for="soLuong">Số lượng:</label>
+<input name="soLuong" id="soLuong" type="number" required oninput="calculateThanhTien()">
+</div>
+<div class="form-group">
+<label for="donGia">Đơn giá:</label>
+<input name="donGia" id="donGia" type="number" required oninput="calculateThanhTien()">
+</div>
+<div class="form-group">
+<label for="thanhTien">Thành tiền:</label>
+<input name="thanhTien" id="thanhTien" type="text" readonly>
+</div>
+<div>
+<button type="button" onclick="addToTable()">Add to Table</button>
+</div>
+</form>
+
+<table id="dataTable">
+<thead>
+<tr>
+<th>Mã hàng</th>
+<th>Tên hàng</th>
+<th>DVT</th>
+<th>Số lượng</th>
+<th>Đơn giá</th>
+<th>Thành tiền</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+<button class="delete-button" onclick="deleteSelectedRow()">Delete Selected Row</button>
+
+<script>
+let selectedRow = null;
+
+function calculateThanhTien() {
+const soLuong = document.getElementById('soLuong').value;
+const donGia = document.getElementById('donGia').value;
+const thanhTien = document.getElementById('thanhTien');
+
+if (soLuong && donGia) {
+const total = soLuong * donGia;
+thanhTien.value = formatNumber(total);
+} else {
+thanhTien.value = '';
+}
+}
+
+function formatNumber(number) {
+return number.toLocaleString('en-US');
+}
+
+function addToTable() {
+const maHang = document.getElementById('maHang').value;
+const tenHang = document.getElementById('tenHang').value;
+const dvt = document.getElementById('dvt').value;
+const soLuong = document.getElementById('soLuong').value;
+const donGia = document.getElementById('donGia').value;
+const thanhTien = document.getElementById('thanhTien').value;
+
+if (maHang && tenHang && dvt && soLuong && donGia && thanhTien) {
+const table = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
+const newRow = table.insertRow();
+
+const cell1 = newRow.insertCell(0);
+const cell2 = newRow.insertCell(1);
+const cell3 = newRow.insertCell(2);
+const cell4 = newRow.insertCell(3);
+const cell5 = newRow.insertCell(4);
+const cell6 = newRow.insertCell(5);
+
+cell1.textContent = maHang;
+cell2.textContent = tenHang;
+cell3.textContent = dvt;
+cell4.textContent = formatNumber(soLuong);
+cell5.textContent = formatNumber(donGia);
+cell6.textContent = thanhTien;
+
+newRow.addEventListener('click', function() {
+if (selectedRow) {
+selectedRow.classList.remove('selected');
+}
+selectedRow = newRow;
+newRow.classList.add('selected');
+});
+
+document.getElementById('inputForm').reset();
+document.getElementById('thanhTien').value = '';
+} else {
+alert('Please fill in all fields.');
+}
+}
+
+function deleteSelectedRow() {
+if (selectedRow) {
+selectedRow.parentNode.removeChild(selectedRow);
+selectedRow = null;
+} else {
+alert('Please select a row to delete.');
+}
+}
+</script>
+</body>
+</html>
