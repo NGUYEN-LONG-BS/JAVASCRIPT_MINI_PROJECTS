@@ -1,23 +1,23 @@
 // Handle form navigation
 document.getElementById('infoForm').addEventListener('keydown', function(event) {
     if (event.key === 'Enter' || event.key === 'Tab') {
-    event.preventDefault();
-    const formElements = Array.from(this.elements);
-    const currentIndex = formElements.indexOf(document.activeElement);
-    const nextIndex = (currentIndex + 1) % formElements.length;
-    formElements[nextIndex].focus();
+        event.preventDefault();
+        const formElements = Array.from(this.elements);
+        const currentIndex = formElements.indexOf(document.activeElement);
+        const nextIndex = (currentIndex + 1) % formElements.length;
+        formElements[nextIndex].focus();
     }
     });
     
-    // Handle table navigation
-    document.addEventListener('keydown', function(event) {
+// Handle table navigation
+document.addEventListener('keydown', function(event) {
     const selectedCell = document.querySelector('.selected');
     if (!selectedCell) return;
-    
+
     const table = document.getElementById('dataTable');
     const cells = Array.from(table.querySelectorAll('td[contenteditable="true"]'));
     const currentIndex = cells.indexOf(selectedCell);
-    
+
     if (event.key === 'Tab') {
     event.preventDefault();
     const nextIndex = (currentIndex + 1) % cells.length;
@@ -75,69 +75,69 @@ document.getElementById('infoForm').addEventListener('keydown', function(event) 
     }
     }
     });
-    
-    document.addEventListener('click', function(event) {
+
+document.addEventListener('click', function(event) {
     if (event.target.tagName === 'TD' && event.target.hasAttribute('contenteditable')) {
-    selectCell(event.target);
+        selectCell(event.target);
     }
     });
-    
-    function selectCell(cell) {
+
+function selectCell(cell) {
     const selectedCell = document.querySelector('.selected');
     if (selectedCell) {
-    selectedCell.classList.remove('selected');
+        selectedCell.classList.remove('selected');
     }
     cell.classList.add('selected');
     }
-    
-    function addNewRow() {
+
+function addNewRow() {
     const table = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
     const newRow = table.insertRow();
     for (let i = 0; i < 6; i++) {
-    const newCell = newRow.insertCell(i);
-    newCell.contentEditable = "true";
-    newCell.addEventListener('input', calculateThanhTien);
+        const newCell = newRow.insertCell(i);
+        newCell.contentEditable = "true";
+        newCell.addEventListener('input', calculateThanhTien);
     }
     }
-    
-    function deleteSelectedRow() {
+
+function deleteSelectedRow() {
     const selectedCell = document.querySelector('.selected');
     if (selectedCell) {
-    const row = selectedCell.parentNode;
-    row.parentNode.removeChild(row);
+        const row = selectedCell.parentNode;
+        row.parentNode.removeChild(row);
     } else {
-    alert('Please select a row to delete.');
+        alert('Please select a row to delete.');
     }
     }
-    
-    function calculateThanhTien() {
+
+function calculateThanhTien() {
     const row = this.parentNode;
     const soLuong = parseFloat(row.cells[3].textContent.replace(/\./g, '')) || 0;
     const donGia = parseFloat(row.cells[4].textContent.replace(/\./g, '')) || 0;
     const thanhTien = soLuong * donGia;
     row.cells[5].textContent = formatNumber(thanhTien);
     }
-    
-    function formatNumber(number) {
+
+function formatNumber(number) {
     return number.toLocaleString('vi-VN');
     }
-    
-    document.querySelectorAll('td[contenteditable="true"]').forEach(cell => {
+
+document.querySelectorAll('td[contenteditable="true"]').forEach(cell => {
     cell.addEventListener('input', calculateThanhTien);
     });
-    
-    function saveTable() {
+
+function saveTable() {
     alert('Save functionality not implemented yet.');
     }
-    
-    function importTable() {
+
+function importTable() {
     alert('Import functionality not implemented yet.');
     }
-    
-    function printTable() {
+
+function printTable() {
     window.print();
     }
-    
-    function listTable() {
+
+function listTable() {
     alert('List functionality not implemented yet.');
     }
