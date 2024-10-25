@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    transition: margin-left 0.5s; /* Smooth transition */
+}
+body.menu-hovered .table-container,
+body.menu-hovered .button-container {
+    margin-left: 400px; /* Adjust this value based on the menu width */
+}
+
+.header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.logo {
+    max-width: 100px; /* Adjust the size as needed */
+}
+form {
+    background-color: #e0f7fa; /* Light blue background */
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #00796b; /* Blue border */
+    position: fixed;
+    top: 80px; /* Adjust to avoid overlap with logo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 600px;
+    z-index: 1000;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form-group label {
+    flex: 1;
+    margin-right: 10px;
+    color: #00796b; /* Darker blue for text */
+}
+.form-group input {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #00796b;
+    border-radius: 3px;
+}
+.table-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    margin-top: 300px; /* Adjust to avoid overlap with fixed form */
+    margin-bottom: 60px; /* Adjust to avoid overlap with fixed buttons */
+    transition: margin-left 0.5s; /* Smooth transition */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #00796b;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    position: sticky;
+    top: 0;
+    background-color: #e0f7fa;
+    z-index: 1;
+}
+.selected {
+    background-color: #b2ebf2; /* Highlight selected cell */
+}
+.button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e0f7fa;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-top: 2px solid #00796b;
+    transition: margin-left 0.5s; /* Smooth transition */
+}
+.button-container button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button-container button:hover {
+    background-color: #004d40; /* Darker shade on hover */
+}

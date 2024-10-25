@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vertical Navigation Menu</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -380px; /* Initially hidden */
+        width: 400px;
+        height: 100%;
+        background-color: #b2ebf2;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    .menu a {
+        padding: 15px 25px;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+    .menu a:hover {
+        background-color: #575757;
+    }
+    .menu:hover {
+        left: 0; /* Slide in from the left */
+    }
+</style>
+</head>
+<body>
+    <div class="menu">
+    <a href="#home">Danh mục thành phẩm</a>
+    <a href="#contact">Nhật ký phiếu nhập kho</a>
+    <a href="#services">Phiếu nhập kho</a>
+    <a href="#contact">Nhật ký phiếu xuất kho</a>
+    <a href="#about">Phiếu xuất kho</a>
+    <a href="#contact">Nhật ký phiếu hoàn nhập</a>
+    <a href="#about">Phiếu hoàn nhập</a>
+    </div>
+</body>
+</html>
