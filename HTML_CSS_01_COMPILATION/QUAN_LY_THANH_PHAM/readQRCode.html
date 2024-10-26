@@ -13,6 +13,27 @@ margin: auto;
 </style>
 </head>
 <body>
+
+    <div id="form-card">
+        <div>
+          <h5>1. Logo</h5>
+          <div>
+            <label>Đổi logo (Ảnh PNG trong suốt, size &gt; 250px) </label>
+            <input type="file" @change="changeLogo" accept="image/*" />
+            <button v-on:click="showLogo = !showLogo">
+              Ẩn/Hiện Logo
+            </button>
+            <button v-on:click="logoSize -= 10">
+              - Thu nhỏ
+            </button>
+            <button v-on:click="logoSize += 10">
+              + Phóng to
+            </button>
+          </div>
+        </div>
+
+        <div>
+
 <div id="reader"></div>
 <div id="result"></div>
 
