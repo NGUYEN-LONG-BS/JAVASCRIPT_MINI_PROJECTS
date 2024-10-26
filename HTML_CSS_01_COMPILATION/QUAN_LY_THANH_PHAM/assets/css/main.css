@@ -15,6 +15,28 @@ body {
     width: 400px; 
     height: 100%; 
     border: none;
-    " onmouseover="document.body.classList.add('menu-hovered');
-    " onmouseout="document.body.classList.remove('menu-hovered');
+}
+
+.container {
+    display: flex;
+    height: 100%; 
+}
+
+.left-div {
+    width: 400px;
+    height: 100%; 
+    transition: width 0.3s;
+}
+
+.right-div {
+    flex-grow: 1;
+    height: 100%; 
+}
+
+.right-div:hover ~ .left-div {
+    width: 20px;
+}
+
+.left-div:hover {
+    width: 400px;
 }

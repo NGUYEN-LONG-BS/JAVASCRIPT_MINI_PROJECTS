@@ -8,21 +8,16 @@
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-    <div>
-        <iframe class="MENU" src="MENU_LEFT_BAR.html" ></iframe>
-    </div>
-    <div class="content">
-        <iframe class="TP_PXK" src="THANH_PHAM_PXK.html" style="position: fixed; top: 0; left: 400px; width: 100%; height: 100%; border: none;"></iframe>
+    <div class="container">
+        <div class="left-div">
+            <!-- onmouseover="document.body.classList.add('menu-hovered');" onmouseout="document.body.classList.remove('menu-hovered');" -->
+            <iframe src="MENU_LEFT_BAR.html" style="position: fixed; top: 0; left: 0; width: 400px; height: 100%; border: none;"></iframe>
+        </div>
+        <div class="right-div">
+            <iframe src="THANH_PHAM_PXK.html" style="position: fixed; top: 0; left: 400px; width: 100%; height: 100%; border: none;"></iframe>
+        </div>
     </div>
 
-    <!-- <div class="container" style="position: fixed; top: 0; left: 0; width: 400px; height: 100%; border: none;" onmouseover="document.body.classList.add('menu-hovered');" onmouseout="document.body.classList.remove('menu-hovered');">
-        <div class="menu-left-bar">
-            <iframe src="MENU_LEFT_BAR.html"></iframe>
-        </div>
-        <div class="content" style="position: fixed; top: 0; left: 400px; width: 100%; height: 100%; border: none;">
-            <iframe src="THANH_PHAM_PXK.html"></iframe>
-        </div>
-    </div> -->
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
