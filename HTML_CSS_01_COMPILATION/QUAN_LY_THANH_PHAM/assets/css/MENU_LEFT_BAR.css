@@ -19,9 +19,11 @@ body {
     display: block;
     transition: 0.3s;
 }
+
 .menu a:hover {
     background-color: #575757;
 }
+
 .menu:hover {
     left: 0; /* Slide in from the left */
 }

@@ -19,10 +19,6 @@ body {
     border: none;
 }
 
-#left_bar :hover{
-    left: 0; 
-}
-
 #TP_PXK {
     /* style="position: fixed; top: 0; left: 400px; width: 100%; height: 100%; border: none;" */
     position: fixed; 
