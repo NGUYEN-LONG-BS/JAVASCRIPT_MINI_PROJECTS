@@ -29,5 +29,6 @@ body {
 
 body.menu-hovered .table-container,
 body.menu-hovered .button-container {
-    margin-left: 400px; /* Adjust this value based on the menu width */
+    /* Adjust this value based on the menu width */
+    /* margin-left: 400px;  */
 }
