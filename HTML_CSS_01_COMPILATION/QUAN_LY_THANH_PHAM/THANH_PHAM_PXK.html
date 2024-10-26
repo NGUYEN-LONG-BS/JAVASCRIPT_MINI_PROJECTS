@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/THANH_PHAM_PXK.css">
+</head>
+<body>
+
+    <!-- <div class="header">
+        <h1>PHIẾU XUẤT KHO THÀNH PHẨM</h1>
+    </div> -->
+
+    <div class="logo-container">
+        <img src="./assets/img/TALA_LOGO.png" alt="Logo" class="logo">
+    </div>
+
+    <form id="infoForm">
+        <div class="form-group">
+            <label for="soPhieu">Số phiếu:</label>
+            <input name="soPhieu" id="soPhieu" type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="ngay">Ngày:</label>
+            <input name="ngay" id="ngay" type="date" required>
+        </div>
+        <div class="form-group">
+            <label for="maKhachHang">Mã khách hàng:</label>
+            <input name="maKhachHang" id="maKhachHang" type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="tenKhachHang">Tên khách hàng:</label>
+            <input name="tenKhachHang" id="tenKhachHang" type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="soDeNghiXuat">Số đề nghị xuất:</label>
+            <input name="soDeNghiXuat" id="soDeNghiXuat" type="text" required>
+        </div>
+    </form>
+
+    <div class="table-container">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Mã hàng</th>
+                    <th>Tên hàng</th>
+                    <th>DVT</th>
+                    <th>Số lượng</th>
+                    <th>Đơn giá</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="button-container">
+        <button onclick="saveTable()">Save</button>
+        <button onclick="importTable()">Import</button>
+        <button onclick="printTable()">Print</button>
+        <button onclick="listTable()">List</button>
+    </div>
+
+    <script src="./assets/js/THANH_PHAM_PXK.js"></script>
+</body>
+</html>

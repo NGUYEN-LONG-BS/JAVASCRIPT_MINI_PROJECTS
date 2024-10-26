@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: -380px; /* Initially hidden */
+    width: 400px;
+    height: 100%;
+    background-color: #b2ebf2;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.menu a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+.menu a:hover {
+    background-color: #575757;
+}
+.menu:hover {
+    left: 0; /* Slide in from the left */
+}
+
+
+body.menu-hovered .table-container,
+body.menu-hovered .button-container {
+    margin-left: 400px; /* Adjust this value based on the menu width */
+}
