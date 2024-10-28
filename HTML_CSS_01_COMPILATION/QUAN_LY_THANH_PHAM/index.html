@@ -9,20 +9,111 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="grid-container">
+        <div class="grid-item"> <!-- 1 -->
+        
+            <div class="header">
+                <h1>Phiếu xuất kho thành phẩm</h1>
+                <img src="./assets/img/TALA_LOGO.png" alt="Logo" class="logo">
+            </div>
 
-        <div class="left-div">
-            <iframe id="left_bar" src="MENU_LEFT_BAR.html"></iframe>
+
         </div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+      </div>
 
-        <div class="right-div">
-            <iframe id="TP_PXK" src="THANH_PHAM_PXK.html"></iframe>
+
+<!-- =============================================================================================================
+=======================================...LeftSlideNavigation
+================================================================================================================ -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Danh mục thành phẩm</a>
+        <a href="#">Nhật ký phiếu nhập kho</a>
+        <a href="#">Phiếu nhập kho</a>
+        <a href="#">Nhật ký phiếu xuất kho</a>
+        <a href="#">Phiếu xuất kho</a>
+        <a href="#">Nhật ký phiếu hoàn nhập</a>
+        <a href="#">Phiếu hoàn nhập</a>
+        <!-- <iframe id="left_bar" src="MENU_LEFT_BAR.html"></iframe> -->
+    </div>
+<!-- =============================================================================================================
+=======================================...main
+================================================================================================================ -->
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        <!-- <iframe id="TP_PXK" src="THANH_PHAM_PXK.html"></iframe> -->
+
+        <div class="logo-container">
+            <img src="./assets/img/TALA_LOGO.png" alt="Logo" class="logo">
         </div>
-
+    
+        <form id="infoForm">
+            <div class="form-group">
+                <label for="soPhieu">Số phiếu:</label>
+                <input name="soPhieu" id="soPhieu" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="ngay">Ngày:</label>
+                <input name="ngay" id="ngay" type="date" required>
+            </div>
+            <div class="form-group">
+                <label for="maKhachHang">Mã khách hàng:</label>
+                <input name="maKhachHang" id="maKhachHang" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="tenKhachHang">Tên khách hàng:</label>
+                <input name="tenKhachHang" id="tenKhachHang" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="soDeNghiXuat">Số đề nghị xuất:</label>
+                <input name="soDeNghiXuat" id="soDeNghiXuat" type="text" required>
+            </div>
+        </form>
+    
+        <div class="table-container">
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Mã hàng</th>
+                        <th>Tên hàng</th>
+                        <th>DVT</th>
+                        <th>Số lượng</th>
+                        <th>Đơn giá</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div class="button-container">
+            <button onclick="saveTable()">Save</button>
+            <button onclick="importTable()">Import</button>
+            <button onclick="printTable()">Print</button>
+            <button onclick="listTable()">List</button>
+        </div>
     </div>
 
-    
-    <!-- Chỗ này để trỏ đến phần Javascripts -->
+<!-- =============================================================================================================
+=======================================...JavaScript
+================================================================================================================ -->
     <script src="./assets/js/main.js"></script>
 </body>
 </html>

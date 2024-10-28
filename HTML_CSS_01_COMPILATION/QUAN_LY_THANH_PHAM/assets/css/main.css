@@ -1,46 +1,193 @@
+/* =============================================================================================================
+=======================================...CSS_BODY
+================================================================================================================ */
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    /* display: flex;
-    flex-direction: row; */
+    font-family: "Lato", sans-serif;
+    display: grid;
+    /* font-size: 62.5% */
+  }
+
+/* =============================================================================================================
+=======================================...Header
+================================================================================================================ */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .logo {
+    width: 300px;
+    height: 100px;
+}
+
+/* =============================================================================================================
+=======================================...CSS_SIDE_BAR
+================================================================================================================ */
+  
+  .sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 100%;
+    width: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-color: #575353;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+/* =============================================================================================================
+=======================================...CSS_MAIN
+=======================================...https://www.w3schools.com/howto/howto_js_sidenav.asp
+================================================================================================================ */
+
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    max-width: 100px; /* Adjust the size as needed */
+}
+
+form {
+    background-color: #e0f7fa; /* Light blue background */
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #00796b; /* Blue border */
+    position: fixed;
+    top: 80px; /* Adjust to avoid overlap with logo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 600px;
+    z-index: 1000;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form-group label {
+    flex: 1;
+    margin-right: 10px;
+    color: #00796b; /* Darker blue for text */
+}
+.form-group input {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #00796b;
+    border-radius: 3px;
+}
+.table-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    margin-top: 300px; /* Adjust to avoid overlap with fixed form */
+    margin-bottom: 60px; /* Adjust to avoid overlap with fixed buttons */
+    transition: margin-left 0.5s; /* Smooth transition */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #00796b;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: #e0f7fa;
+    z-index: 1;
+}
+
+.selected {
+    background-color: #b2ebf2; /* Highlight selected cell */
+}
+
+.button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e0f7fa;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-top: 2px solid #00796b;
     transition: margin-left 0.5s; /* Smooth transition */
 }
 
-.container {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    /* bottom: 0;
-    right: 0; */
-    width: 100%;
-    height: 100%;
-    border: 5px;
-    border-color: yellow;
-    background-color: rgb(219, 204, 233);
+.button-container button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
-.left-div {
-    /* style="position: fixed; top: 0; left: 0; width: 400px; height: 100%; border: none;" */
-    /* onmouseover="document.body.classList.add('menu-hovered');" onmouseout="document.body.classList.remove('menu-hovered');" */
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    width: 400px;
-    height: 100%;
-    border: 5px;
-    border-color: blue;
-}
-
-.right-div {
-    /* style="position: fixed; top: 0; left: 400px; width: 100%; height: 100%; border: none;" */
-    position: absolute;
-    top: 0; 
-    left: 400px; 
-    width: calc(100% - 400px);
-    /* width: 100%;  */
-    height: 100%; 
-    border: 5px;
-    border-color: red;
+.button-container button:hover {
+    background-color: #004d40; /* Darker shade on hover */
 }

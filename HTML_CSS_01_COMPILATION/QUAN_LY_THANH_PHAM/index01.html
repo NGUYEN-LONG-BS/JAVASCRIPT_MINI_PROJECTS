@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phiếu xuất kho thành phẩm</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+background-color: #f8f8f8;
+border-bottom: 1px solid #ddd;
+}
+.header .logo {
+height: 40px;
+}
+.navigator {
+position: fixed;
+top: 0;
+left: -4000px;
+width: 4000px;
+height: 100%;
+background-color: #333;
+color: white;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+.navigator a {
+padding: 10px 15px;
+text-decoration: none;
+font-size: 25px;
+color: white;
+display: block;
+transition: 0.3s;
+}
+.navigator a:hover {
+background-color: #575757;
+}
+.navigator .logo {
+position: absolute;
+top: 10px;
+left: 10px;
+height: 40px;
+}
+.main-content {
+margin-left: 20px;
+transition: margin-left 0.5s;
+}
+.open-nav {
+margin-left: 4000px;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>Phiếu xuất kho thành phẩm</h1>
+<img src="logo.png" alt="Logo" class="logo">
+</div>
+<div id="navigator" class="navigator">
+<img src="logo.png" alt="Logo" class="logo">
+<a href="#">Link 1</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
+<div id="main-content" class="main-content">
+<p>Your main content goes here.</p>
+</div>
+<script>
+function toggleNav() {
+var navigator = document.getElementById("navigator");
+var mainContent = document.getElementById("main-content");
+if (navigator.style.left === "0px") {
+navigator.style.left = "-4000px";
+mainContent.classList.remove("open-nav");
+} else {
+navigator.style.left = "0px";
+mainContent.classList.add("open-nav");
+}
+}
+</script>
+</body>
+</html>
