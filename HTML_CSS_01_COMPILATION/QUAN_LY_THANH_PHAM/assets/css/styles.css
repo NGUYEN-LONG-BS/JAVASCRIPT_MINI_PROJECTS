@@ -1,13 +1,28 @@
+/* Định nghĩa biến */
+:root {
+    /* header */
+    --primary-main-color: #3498db;
+    --main-text-color: #000000;
+
+    /* menu */
+    --primary-menu-color: #3498db;
+    --menu-text-color: #000000;
+
+    /* main */
+    /* right */
+    /* footer */
+    /* orther */
+    --font-size: 16px;
+  }
+
 /* =============================================================================================================
 =======================================...CSS_BODY
 ================================================================================================================ */
 
 body {
-    margin: 0;
-    padding: 0;
     font-family: "Lato", sans-serif;
     display: grid;
-    /* font-size: 62.5% */
+    font-size: 62.5%
   }
 
 /* =============================================================================================================
@@ -19,7 +34,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f8f8f8;
+    background-color: var(--primary-main-color);
     border-bottom: 1px solid #ddd;
 }
 
@@ -42,7 +57,7 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    background-color: #575353;
+    background-color: var(--primary-main-color);
   }
   
   .sidenav a {
@@ -82,7 +97,7 @@ body {
 }
 
 .header {
-    background-color: #00796b;
+    background-color: var(--primary-main-color);
     color: white;
     padding: 20px;
     text-align: center;
@@ -102,7 +117,7 @@ body {
 }
 
 form {
-    background-color: #e0f7fa; /* Light blue background */
+    background-color: var(--primary-main-color);
     padding: 20px;
     border-radius: 5px;
     max-width: 600px;
@@ -157,7 +172,7 @@ th, td {
 th {
     position: sticky;
     top: 0;
-    background-color: #e0f7fa;
+    background-color: var(--primary-main-color);
     z-index: 1;
 }
 
