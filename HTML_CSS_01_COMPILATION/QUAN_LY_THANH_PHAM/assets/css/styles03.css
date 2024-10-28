@@ -1,0 +1,13 @@
+h1{
+    font-size: 30px;
+}
+header{
+    font-size: 25px;
+    color: blue;
+    background-color: aquamarine;
+}
+footer{
+    font-size: 25px;
+    color: red;
+    background-color: aquamarine;
+}
