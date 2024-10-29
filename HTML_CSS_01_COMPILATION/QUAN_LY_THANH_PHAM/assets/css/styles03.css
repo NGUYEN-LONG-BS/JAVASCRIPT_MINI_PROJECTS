@@ -1,13 +1,184 @@
-h1{
-    font-size: 30px;
+/* =============================================================================================================
+=======================================...root
+=======================================...Định nghĩa biến
+================================================================================================================ */
+:root {
+    /* header */
+    --primary-main-color: #c0d0db;
+    --main-text-color: #000000;
+
+    /* menu */
+    --primary-menu-color: #c8d9e4;
+    --menu-text-color: #000000;
+    --left-container-background-color: rgb(232,132,44);
+    --right-container-background-color: rgb(232,132,44);
+
+
+    --left_container: 300px;
+    --right_container: 200px;
+    /* --center_container: calc(100% - var(--left_container) - var(--right_container)); */
+    --center_container: 1200px;
+
+    --font-size: 16px;
 }
+/* =============================================================================================================
+=======================================...header
+================================================================================================================ */
 header{
     font-size: 25px;
     color: blue;
-    background-color: aquamarine;
 }
+.header_top{
+    display: flex;
+    flex-direction: row; /* This ensures the items are in a row */
+    gap: 10px; /* Optional: Adds space between items */
+}
+.header_bot{
+    display: flex;
+    flex-direction: row; /* This ensures the items are in a row */
+    width: 100%;
+    gap: 10px; /* Optional: Adds space between items */
+    background-color: rgb(206, 233, 224);
+}
+.tab_btn{
+    height: 25px;
+    border: 1px;
+    background-color: #fff;
+    margin: 10px;
+}
+.logo-container{
+    width: 300px;
+    height: 100%;
+    border: 2px;
+}
+/* =============================================================================================================
+=======================================...body_container
+================================================================================================================ */
+.body_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.body_item{
+    /* border: 1px solid #ccc; */
+    /* Make items flexible */
+    /* flex: 1;  */
+}
+h1{
+    font-size: 30px;
+}
+/* =============================================================================================================
+=======================================...left_container
+================================================================================================================ */
+.left_container{
+    top: 0;
+    left: 0;
+    width: var(--left_container);
+    height: 100%;
+    background-color: var(--left-container-background-color);
+    opacity: 0.7;
+}
+/* =============================================================================================================
+=======================================...right_container
+================================================================================================================ */
+.right_container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: var(--right_container);
+    height: 100%;
+    /* background-color: var(--right-container-background-color); */
+    background-color: var(--right-container-background-color);
+    opacity: 0.7;
+}
+/* =============================================================================================================
+=======================================...center_container
+================================================================================================================ */
+.center_container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* width: calc(100% - var(--left_container) - var(--right_container)); */
+    width: var(--center_container);
+}
+
+.form-info-of-slip {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    border-radius: 5px;
+    border: 2px;
+    padding: 10px;
+    margin: 5px;
+
+    background-color: var(--primary-main-color);
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form-group label {
+    flex: 1;
+    margin-right: 10px;
+    color: #00796b; /* Darker blue for text */
+}
+.form-group input {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #00796b;
+    border-radius: 3px;
+}
+.table-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    margin-top: 300px; /* Adjust to avoid overlap with fixed form */
+    margin-bottom: 60px; /* Adjust to avoid overlap with fixed buttons */
+    transition: margin-left 0.5s; /* Smooth transition */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #00796b;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.button-container{
+    display: flex;
+}
+.flex-item{
+    margin: 10px;
+    /* flex: 1;  */
+}
+/* =============================================================================================================
+=======================================...footer
+================================================================================================================ */
 footer{
+    height: 150px;
+    padding: 40px 0px 45px;
     font-size: 25px;
-    color: red;
-    background-color: aquamarine;
+    color: white;
+    background-color: #00335e;
+}
+.nameCompany{
+    font-family: 'BarlowSemiCondensed-Black';
+    font-size: 28px;
+    color: #e67817;
+    position: relative;
 }

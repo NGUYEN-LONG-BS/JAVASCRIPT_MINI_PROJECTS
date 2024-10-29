@@ -21,21 +21,28 @@
 </head>
 <body>
     <!-- header -->
-    <header id="header1"></header>
-    <script>
-        load("#header1", "./template/header.html");
-    </script>
+    <header id="header"></header>
+    <script>load("#header", "./template/header.html");</script>
 
-    <!-- main -->
-    <h1>Nội dung trang web 123</h1>
-    <!-- <footer>nội dung footer</footer> -->
-    
+    <div class="body_container">
+        <!-- left -->
+        <div id="left-area" class="body_item"></div>
+        <script>load("#left-area", "./template/left.html");</script>
+
+        <!-- main content -->
+        <div id="center-area" class="body_item"></div>
+        <script>load("#center-area", "./template/center.html");</script>
+
+        <!-- right -->
+        <div id="right-area" class="body_item"></div>
+        <script>load("#right-area", "./template/right.html");</script>
+    </div>
+
+    <!-- footer -->
     <footer id="footer"></footer>
-    <script>
-        load("#footer", "./template/footer.html");
-    </script>
+    <script>load("#footer", "./template/footer.html");</script>
 
     <!-- Scripts -->
-    <!-- <script src="./assets/js/main.js"></script> -->
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>

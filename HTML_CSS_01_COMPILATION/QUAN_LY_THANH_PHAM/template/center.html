@@ -1,0 +1,68 @@
+<div class="center_container">
+    <div class="header">
+        <H1> PHIẾU XUẤT KHO THÀNH PHẨM</H1>
+    </div>
+
+    <form id="infoForm" class="form-info-of-slip">
+        <div class="form-group">
+            <label for="soPhieu">Số phiếu:</label>
+            <input name="soPhieu" id="soPhieu" type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="ngay">Ngày:</label>
+            <input name="ngay" id="ngay" type="date" required>
+        </div>
+        <div class="form-group">
+            <label for="maKhachHang">Mã khách hàng:</label>
+            <input name="maKhachHang" id="maKhachHang" type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="tenKhachHang">Tên khách hàng:</label>
+            <input name="tenKhachHang" id="tenKhachHang" type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="soDeNghiXuat">Số đề nghị xuất:</label>
+            <input name="soDeNghiXuat" id="soDeNghiXuat" type="text" required>
+        </div>
+    </form>
+
+    <div class="table-container table-info-of-lisbox">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Mã hàng</th>
+                    <th>Tên hàng</th>
+                    <th>DVT</th>
+                    <th>Số lượng</th>
+                    <th>Đơn giá</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="button-container">
+        <div class="flex-item">
+            <button onclick="saveTable()">Save</button>
+        </div>
+        <div class="flex-item">
+            <button onclick="importTable()">Import</button>
+        </div>
+        <div class="flex-item">
+            <button onclick="printTable()">Print</button>
+        </div>
+        <div class="flex-item">
+            <button onclick="listTable()">List</button>
+        </div>
+    </div>
+</div>
