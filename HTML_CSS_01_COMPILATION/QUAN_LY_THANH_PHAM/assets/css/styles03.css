@@ -11,11 +11,11 @@
     --primary-menu-color: #c8d9e4;
     --menu-text-color: #000000;
     --left-container-background-color: rgb(232,132,44);
-    --right-container-background-color: rgb(232,132,44);
+    --right-container-background-color: rgb(196, 179, 165);
 
 
     --left_container: 300px;
-    --right_container: 200px;
+    --right_container: 300px;
     /* --center_container: calc(100% - var(--left_container) - var(--right_container)); */
     --center_container: 1200px;
 
@@ -93,6 +93,37 @@ h1{
     /* background-color: var(--right-container-background-color); */
     background-color: var(--right-container-background-color);
     opacity: 0.7;
+}
+.right_container :hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(var(--right_container) + 100px);
+}
+.notification {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #666;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    color: #fff;
+    background: red;
+    font-size: 16px;
+    padding: 4px 2px 5px;
+    border-radius: 4px;
+}
+.notification span {
+    font-size: 16px;
 }
 /* =============================================================================================================
 =======================================...center_container

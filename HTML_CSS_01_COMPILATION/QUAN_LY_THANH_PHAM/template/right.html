@@ -1,15 +1,23 @@
 <div class="right_container">
-    <div class="Right-Notification">
-        <ul>
-            <li>
-                Thông báo đơn hàng mới
-            </li>
-            <li>
-                Thông báo tồn kho đã hết
-            </li>
-            <li>
-                thông báo đơn hàng hoàn thành
-            </li>
-        </ul>
+
+    <div id="notificationBadge_01"></div>
+    <script>load("#notificationBadge_01", "./template/notificationBadge.html");</script>
+
+    <!-- Notification Badge -->
+    <div class="notification">
+        <i class="fa-solid fa-bell"></i>
+        <span class="badge">12</span>
+        <span>Thông báo đơn hàng mới</span>
     </div>
+    <div class="notification">
+        <i class="fa-solid fa-bell"></i>
+        <span class="badge">12</span>
+        <span>Thông báo tồn kho đã hết</span>
+    </div>
+    <div class="notification">
+        <i class="fa-solid fa-bell"></i>
+        <span class="badge">12</span>
+        <span>Thông báo đơn hàng hoàn thành</span>
+    </div>
+
 </div>

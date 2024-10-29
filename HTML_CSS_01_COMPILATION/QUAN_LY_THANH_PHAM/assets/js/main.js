@@ -147,6 +147,34 @@ document.querySelectorAll('td[contenteditable="true"]').forEach(cell => {
     cell.addEventListener('input', calculateThanhTien);
     });
 
+
+function collectData() {
+    // Lấy dữ liệu từ form
+    const form = document.getElementById('infoForm');
+    const formData = new FormData(form);
+    const formArray = [];
+    formData.forEach((value, key) => {
+    formArray.push([key, value]);
+    });
+    
+    // Lấy dữ liệu từ bảng
+    const table = document.getElementById('dataTable');
+    const tableArray = [];
+    for (let row of table.rows) {
+    const rowData = [];
+    for (let cell of row.cells) {
+    rowData.push(cell.textContent);
+    }
+    tableArray.push(rowData);
+    }
+    
+    // Kết hợp dữ liệu từ form và bảng vào mảng 2 chiều
+    const combinedArray = [formArray, tableArray];
+    console.log(combinedArray);
+    console.log(formArray);
+    }
+
+
 function saveTable() {
     alert('Save functionality not implemented yet.');
     }
