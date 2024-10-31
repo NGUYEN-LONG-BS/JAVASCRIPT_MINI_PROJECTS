@@ -12,14 +12,14 @@ const connectionString = "Server=103.90.227.154,1433;Database=LA_2024;UID=sa;PWD
 const query = "SELECT * FROM [LA_2024].[dbo].[TB_COMPONENT_CATEGORIES]";
 
 app.get('/data', (req, res) => {
-sql.query(connectionString, query, (err, rows) => {
-if (err) {
-console.error("Error executing query:", err);
-res.status(500).send("Error executing query");
-} else {
-res.json(rows);
-}
-});
+    sql.query(connectionString, query, (err, rows) => {
+        if (err) {
+        console.error("Error executing query:", err);
+        res.status(500).send("Error executing query");
+        } else {
+        res.json(rows);
+        }
+    });
 });
 
 app.listen(port, () => {
